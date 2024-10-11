@@ -1,11 +1,12 @@
-# wfdfdfdfsd
-[py.run]
-run_h1 = run sucessfully
+# comment
+[py.header1]
+cmd1_h1 = running cmd 1
 cmd2_h1 = running cmd 2
 
 
-[py.gg]
+[py.header2]
 cmd3_h2 = running cmd 3
-cmd4_h2 = run duplicate
+cmd4_h2 = running cmd 4
 
-[py.yjh]
+[py.header3]
+# No commands testing

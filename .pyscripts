@@ -1,12 +1,8 @@
+# Line Of Configuration (LOC) user = Rakesh
+
+# Testing file
+
 # comment
 [py.header1]
-cmd1_h1 = running cmd 1
-cmd2_h1 = running cmd 2
-
-
-[py.header2]
-cmd3_h2 = running cmd 3
-cmd4_h2 = running cmd 4
-
-[py.header3]
-# No commands testing
+cmd1_h1 = pip show pipCreator
+cmd2_h1 = pip list

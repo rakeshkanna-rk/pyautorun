@@ -5,4 +5,4 @@
 # comment
 [py.header1]
 cmd1_h1 = pip show pipCreator
-cmd2_h1 = pip list
+cmd2_h1 = pip show MonoCipher

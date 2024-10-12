@@ -150,7 +150,7 @@ if len(cmdstorun) > 0:
     print("\nExecuting Commands...")
 
     for cmds in cmdstorun:
-        print(f"Executing: {MAGENTA}{cmds}{RESET}\n")
+        print(f"\nExecuting: {MAGENTA}{cmds}{RESET}\n")
         os.system(cmds)
 
 else:

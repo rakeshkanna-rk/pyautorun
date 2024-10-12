@@ -120,6 +120,7 @@ for  index, line in enumerate(lines):
         else:
             cmd.append(line)
 
+time.sleep(1)
     
 if not header_check and not token:
     print(f"{error}Header not found:", run_cmd)
@@ -138,6 +139,7 @@ for c in cmd[1:]:
         elif token and value == "=" and c.split("=")[0].strip() == cmdtoken.strip():
             cmdstorun.append(c[i+1:].strip())
 
+time.sleep(1)
 
 print(f"\nNumber of commands executing: {len(cmdstorun) if len(cmdstorun) >= 1 else 0}")
 

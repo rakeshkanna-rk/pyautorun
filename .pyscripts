@@ -1,4 +1,4 @@
-# Line Of Configuration (LOC) user = Rakesh
+# Line Of Configuration (LOC) file = .pyscripts [Sun Oct 13 22:44:48 2024]
 
 # Testing file
 
@@ -6,3 +6,5 @@
 [py.header1]
 cmd1_h1 = pip show pipCreator
 cmd2_h1 = pip show MonoCipher
+[py.help]
+python = python --help

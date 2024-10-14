@@ -3,13 +3,7 @@ import os
 from textPlay.colors import *
 import time
 
-def checkHeader(line, index)-> bool:          
-    if line[-1] == "]\n" or line[-1] == "]":
-        return True
-
-    else:
-        print(f"SyntaxError: No closing bracket @ line {index} \n{line} \n{'~'*(len(line))}^")
-        exit()
+from constants import *
 
 # MAIN
 error = "Error: "
@@ -23,7 +17,7 @@ sec_header = False
 
 check_line = []
 
-def main(run_cmd, config_file):
+def runScript(run_cmd, config_file):
 
     global error
     global cmd
@@ -47,9 +41,7 @@ def main(run_cmd, config_file):
             lines = [x for x in lines if x != "" or x != "\n"]
 
     except FileNotFoundError:
-        print(f"{RED}Config file not found{RESET} \nUse: {MAGENTA}pyauto init{RESET}")
-        print("To create a config file")
-        exit()
+        FileNotFound()
 
     if not lines[0].startswith(f"# Line Of Configuration (LOC) file = {config_file}"):
         print(f"LOC not found \nWriting to {config_file}")
@@ -139,7 +131,7 @@ def main(run_cmd, config_file):
 
         for cmds in cmdstorun:
             print(cmds)
-        print("\nExecuting Commands...")
+        print("\nExecuting Commands...", end="\r")
 
         for cmds in cmdstorun:
             print(f"\nExecuting: {MAGENTA}{cmds}{RESET}\n")

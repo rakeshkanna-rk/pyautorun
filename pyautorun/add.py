@@ -1,7 +1,7 @@
 from textPlay.colors import *
 import os
 
-from constants import *
+from pyautorun.constants import *
 
 def addtoScript(config, header, script):
     found_header = False

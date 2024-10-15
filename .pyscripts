@@ -1,15 +1,6 @@
-# Line Of Configuration (LOC) file = .pyscripts [Sun Oct 13 22:44:48 2024]
+# Line Of Configuration (LOC) file = .pyscripts [Tue Oct 15 18:47:29 2024]
 
-# Testing file
-
-# comment
-[py.header1]
-cmd1_h1 = pip show pipCreator
-cmd2_h1 = pip show MonoCipher
-
-[py.help]
-help = python --help
-python = python --help
-
-[py.h2]
-gg = python --help
+[py.reinstall]
+convert = python setup.py sdist bdist_wheel
+uninstall = pip uninstall pyautorun
+install = pip install dist/pyautorun-0.1.0-py3-none-any.whl

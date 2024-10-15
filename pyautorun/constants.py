@@ -28,4 +28,4 @@ def checkPath(name):
             return False
 
     else:
-        return False
+        return True

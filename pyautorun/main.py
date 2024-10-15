@@ -5,10 +5,10 @@ from textPlay.colors import *
 
 import atexit
 
-from run import runScript
-from c_init import createConfig
-from add import addtoScript
-from find import findLine
+from pyautorun.run import runScript
+from pyautorun.c_init import createConfig
+from pyautorun.add import addtoScript
+from pyautorun.find import findLine
 
 @click.group()
 def cli():

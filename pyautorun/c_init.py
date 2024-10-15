@@ -2,7 +2,7 @@ from textPlay.colors import *
 import time
 import os
 
-from constants import *
+from pyautorun.constants import *
 
 def createConfig(name):
     created = False

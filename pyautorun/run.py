@@ -3,7 +3,7 @@ import os
 from textPlay.colors import *
 import time
 
-from constants import *
+from pyautorun.constants import *
 
 # MAIN
 error = "Error: "

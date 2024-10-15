@@ -1,5 +1,5 @@
 from textPlay.colors import *
-from constants import *
+from pyautorun.constants import *
 
 def findLine(config, line):
 

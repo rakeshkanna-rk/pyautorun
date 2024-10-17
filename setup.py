@@ -39,7 +39,11 @@ setup(
         "Operating System :: OS Independent",
         "Intended Audience :: Developers",
         "Topic :: Software Development :: Build Tools",
-        "Development Status :: 4 - Beta",
+        "Topic :: Software Development :: Libraries :: Python Modules",
+        "Topic :: System :: Software Distribution",
+        "Topic :: System :: Systems Administration",
+        "Topic :: Utilities",
+        "Typing :: Typed",
         "Environment :: Console",
         "Natural Language :: English",
     ]

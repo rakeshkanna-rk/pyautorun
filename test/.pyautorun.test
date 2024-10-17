@@ -1,0 +1,4 @@
+# Line Of Configuration (LOC) file = .pyautorun.test [Fri Oct 18 00:16:35 2024]
+
+[py.tests]
+test = tested sucessfully

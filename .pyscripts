@@ -4,3 +4,6 @@
 convert = python setup.py sdist bdist_wheel
 uninstall = pip uninstall pyautorun
 install = pip install dist/pyautorun-0.1.0-py3-none-any.whl
+
+[py.upload]
+upload = twine upload dist/*

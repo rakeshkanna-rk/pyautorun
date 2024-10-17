@@ -19,7 +19,6 @@ def createConfig(name):
                 exit()
 
     else:
-        
             if checkPath(name):
                 try:
                     with open(name, "w") as f:

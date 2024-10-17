@@ -1,4 +1,0 @@
-# Line Of Configuration (LOC) file = .pyscripts [Tue Oct 15 21:23:40 2024]
-
-[py.python]
-show = pip show pyautorun

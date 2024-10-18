@@ -86,10 +86,13 @@ pyauto add -h <header_name> -s '<script>' -c <configfile(optional)>
 Search for commands in the config file that start with a specific string:
 
 ```bash
-pyauto find -l <line Startswith>
+pyauto find -l <line Startswith> -h <header> -c <configfile(optional)>
 ```
+ - `-l <line Startswith>`: Specify the line to find.
+ - `-h <header>`: Specify the header to find.
+ - `-c <configfile>`: Optional argument to specify the configuration file (default: `.pyscripts`).
 
-This will output all commands in the file that match the specified prefix.
+This will output all lines or header in the file that match the specified prefix.
 
 ### 4. Run Commands
 Run all the commands in a specific header or a particular command by referencing it:
@@ -125,7 +128,7 @@ pyauto run <header>.<command_name>
 
 4. **Find commands starting with a specific line**:
    ```bash
-   pyauto find -l py
+   pyauto find -l py -h head
    ```
 
 ## Contributing

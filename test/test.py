@@ -18,5 +18,6 @@ runScript(header, name)
 
 # FIND SCRIPT
 name = ".pyautorun.test"
-header = "test"
-findLine(name, header)
+line = "test"
+header = "tests"
+findLine(name, line, header)

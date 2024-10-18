@@ -41,9 +41,10 @@ def add(header, script, config=".pyscripts"):
 
 @click.command()
 @click.option("--config", "-c", help="Specify config file", type=click.STRING, default=".pyscripts")
-@click.option("--line", "-l", help="Specify line number", prompt="Line to find", type=click.STRING, required=True)
-def find(config, line):
-    findLine(config, line)
+@click.option("--header", "-h", help="Specify header name", type=click.STRING, required=False)
+@click.option("--line", "-l", help="Specify line number", type=click.STRING, required=False)
+def find(config, line, header):
+    findLine(config, line, header)
 
 cli.add_command(init)
 cli.add_command(run)

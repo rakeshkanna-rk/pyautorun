@@ -113,22 +113,22 @@ pyauto run <header>.<command_name>
 
 1. **Initialize the config**:
    ```bash
-   pyauto init
+   pyauto init .pyautorun.test
    ```
 
 2. **Add a new command**:
    ```bash
-   pyauto add -h python -s 'tasks = pytest tests/' -c .pyscripts
+   pyauto add -h tests -s "test = tested sucessfully" -c .pyautorun.test 
    ```
 
 3. **Run a command from the header**:
    ```bash
-   pyauto run python.tasks
+   pyauto run tests -c .pyautorun.test
    ```
 
 4. **Find commands starting with a specific line**:
    ```bash
-   pyauto find -l py -h head
+   pyauto find -l test -h tests -c .pyautorun.test
    ```
 
 ## Contributing

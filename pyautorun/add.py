@@ -10,7 +10,6 @@ def addtoScript(config, header, script):
         exit()
     else:
         print(f"Config file: {config}")
-
         try:
             with open(config, "r") as f:
                 lines = f.readlines()

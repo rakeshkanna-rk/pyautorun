@@ -29,7 +29,7 @@ Happy Coding!
 
 # FIND
 '''
->>> pyauto find -l test -c .pyautorun.test
+>>> pyauto find -l test -h tests -c .pyautorun.test
 
         PyAuto Run
 

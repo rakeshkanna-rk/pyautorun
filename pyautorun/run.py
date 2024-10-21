@@ -95,7 +95,6 @@ def runScript(run_cmd, config_file):
         elif "=" in line and header_check and not sec_header:
             cmd_line = True
 
-
             if token and line.split("=")[0].strip() == cmdtoken.strip():
                 print("Token value:", line.split("=")[1].strip())
                 cmd.append(line)

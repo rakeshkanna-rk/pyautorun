@@ -1,4 +1,4 @@
-# pyauto
+# pyautorun
 
 **pyauto** is a Python module that acts like a Makefile for Python projects. It allows you to define and execute a set of scripts easily using a configuration file. This tool helps in organizing and automating common project commands.
 
